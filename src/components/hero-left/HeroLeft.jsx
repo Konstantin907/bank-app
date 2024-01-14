@@ -18,7 +18,7 @@ export default function HeroLeft() {
             <p className='hero-desc'>Our team of experts uses a methodology to identify <br /> the credit cards most likely to fit your needs. <br />
                 We examine annual percentage rates, annual fees.
             </p>
-            <button className="getStarted-btn">Get Started</button>
+            
         </div>
         
     </div>

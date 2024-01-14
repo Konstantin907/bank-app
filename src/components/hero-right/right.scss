@@ -1,6 +1,41 @@
-.hand-img{
+.right-side-hero{
+
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: -50px;
+
+    .hand-img{
     width: 350px;
     height: 300px;
     position: relative;
-    top: 100px;
+    top: -310px;
 }
+
+.get-started{
+    position: relative;
+    top: 50px;
+    left: 70px;
+    width: 150px;
+    height: 140px;
+    background: transparent;
+    color: #33BBCF;
+    border: 2px solid #33BBCF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.svg{
+    position: relative;
+    left: 40px;
+    top: -120px;
+}
+.lower-bubble{
+    position: relative;
+    right: -250px;
+    top: 40px;
+}
+.upper-bubble{
+    position: relative;
+    top: -100px;
+}
+}
+
