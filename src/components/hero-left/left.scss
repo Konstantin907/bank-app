@@ -5,7 +5,7 @@
     margin-bottom: -20px;
 }
 
-.top-span{
+.top-span{ 
     color: rgba(255, 255, 255, 0.60);
     font-size: 14px;
     font-style: normal;
@@ -31,6 +31,10 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
+    }
+
+    .hero-desc{
+        color: rgba(255, 255, 255, 0.70);
     }
 
     .getStarted{

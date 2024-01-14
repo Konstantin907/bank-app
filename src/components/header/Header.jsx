@@ -1,5 +1,8 @@
 import "./header.scss"
 import { useState } from "react"
+import {
+  Link
+} from "react-router-dom";
 
 export default function Header() {
 
@@ -46,9 +49,8 @@ export default function Header() {
                 <li>
                     {dropdown && (
                         <ul className="dropdown-content">
-                            <li><a href="">Info</a></li>
-                            <li><a href="">Accomplishments</a></li>
-                            <li><a href="">Team</a></li>
+                            <li><Link to="/info">Info</Link></li>
+                            <li><Link to="/team">Team</Link></li>
                             <li><a href="">Become one of us</a></li>
                         </ul>
                     )}
@@ -58,7 +60,7 @@ export default function Header() {
                 <li>
                     {featuresDropdown && (
                     <ul className="dropdown-content">
-                        <li><a href="">Appliences</a></li>
+                        <li><a href="">Appliances</a></li>
                         <li><a href="">Account related</a></li>
                         <li><a href="">Possibilities</a></li>
                     </ul>
@@ -68,7 +70,7 @@ export default function Header() {
                 <li>
                     {contactDropdown && (
                         <ul className="dropdown-content">
-                         <li><a href="">Locations</a></li>
+                         <li><Link to="/locations">Locations</Link></li>
                          <li><a href="">Digital Platforms</a></li>
                      </ul>
                     )}
