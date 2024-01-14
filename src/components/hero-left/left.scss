@@ -1,0 +1,55 @@
+
+.top-paragraph{
+    display: flex;
+    align-items: center;
+    margin-bottom: -20px;
+}
+
+.top-span{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    .white-span{
+        color: #fff;
+    }
+}
+
+.hero-major-text{
+
+    .hero-heading{
+        color: #FFF;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%; /* 100.8px */
+        letter-spacing: 0.72px;
+        .blue-span{
+            background: radial-gradient(64.33% 64.33% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+    .getStarted{
+        margin-top: -20px;
+
+        .getStarted-btn{
+            width: 400px;
+            height: 40px;
+            border: 2px solid #33BBCF;
+            background: transparent;
+            color: #33BBCF;
+            font-size: large;
+
+            &:hover{
+                background: #33BBCF;
+                color: black;
+                transition: 1s;
+                cursor: pointer;
+            }
+        }
+    }
+}
