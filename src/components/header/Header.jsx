@@ -1,6 +1,35 @@
 import "./header.scss"
+import { useState } from "react"
 
 export default function Header() {
+
+    const [dropdown, setDropdown] = useState(false);
+    const [featuresDropdown, setFeaturesDropdown] = useState(false)
+    const [contactDropdown, setContactDropdown] = useState(false)
+
+    const toggleDropdownAbout = (e) => {
+        e.preventDefault();
+        setDropdown(!dropdown);
+        setFeaturesDropdown(false);
+        setContactDropdown(false);
+    }
+
+    const toggleDropdownFeatured = (e) => {
+        e.preventDefault();
+        setFeaturesDropdown(!featuresDropdown)
+        setDropdown(false);
+        setContactDropdown(false);
+    }
+
+    const toggleDropdownContact = (e) => {
+        e.preventDefault();
+        setContactDropdown(!contactDropdown)
+        setDropdown(false);
+        setFeaturesDropdown(false);
+    }
+
+
+
   return (
     <div className="header">
         <svg xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" fill="none">
@@ -14,9 +43,38 @@ export default function Header() {
         <nav className="nav">
             <ul className="ul-elements">
                 <li><a href="/">Home</a></li>
-                <li><a href="/">About Us</a></li>
-                <li><a href="/">Features</a></li>
-                <li><a href="/">Solution</a></li>
+                <li>
+                    {dropdown && (
+                        <ul className="dropdown-content">
+                            <li><a href="">Info</a></li>
+                            <li><a href="">Accomplishments</a></li>
+                            <li><a href="">Team</a></li>
+                            <li><a href="">Become one of us</a></li>
+                        </ul>
+                    )}
+                    <a href="/" onClick={toggleDropdownAbout}>About Us</a>
+                    
+                </li>
+                <li>
+                    {featuresDropdown && (
+                    <ul className="dropdown-content">
+                        <li><a href="">Appliences</a></li>
+                        <li><a href="">Account related</a></li>
+                        <li><a href="">Possibilities</a></li>
+                    </ul>
+                    )}
+                    <a href="/" onClick={toggleDropdownFeatured}>Features</a>
+                </li>
+                <li>
+                    {contactDropdown && (
+                        <ul className="dropdown-content">
+                         <li><a href="">Locations</a></li>
+                         <li><a href="">Digital Platforms</a></li>
+                     </ul>
+                    )}
+                    <a href="/" onClick={toggleDropdownContact}>Contact Us</a>
+                    
+                </li>
             </ul>
 
         </nav>
