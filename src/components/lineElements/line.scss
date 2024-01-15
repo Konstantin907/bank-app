@@ -1,0 +1,37 @@
+.line-elements{
+    margin: -250px 135px;
+    display: flex;
+    align-items: center;
+
+    .first-element{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .num1{
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 130%; /* 53.16px */
+        }
+        .active{
+            font-family: Poppins;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 130%; /* 26.58px */
+            background: radial-gradient(64.33% 64.33% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+    .line{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+}
+
