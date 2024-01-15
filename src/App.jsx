@@ -10,6 +10,7 @@ import HomePage from './pages/home/HomePage';
 import { AboutPage } from './pages/about/AboutPage';
 import { TeamPage } from './pages/team/TeamPage';
 import {LocationsPage} from './pages/locations/LocationsPage';
+import { WhatPeopleThink } from './components/whatPeopleThink/WhatPeopleThink';
 
 
 function App() {
@@ -25,6 +26,8 @@ function App() {
         <Route path='/locations' element={<LocationsPage />} />
       </Routes>
     </Router>
+
+
       
      
     
