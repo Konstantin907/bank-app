@@ -3,18 +3,26 @@ import { useState } from "react"
 import {
   Link
 } from "react-router-dom";
+import {useTranslation} from "react-i18next"
+
+
+
+
 
 export default function Header() {
 
     const [dropdown, setDropdown] = useState(false);
     const [featuresDropdown, setFeaturesDropdown] = useState(false)
     const [contactDropdown, setContactDropdown] = useState(false)
+    //language
+    const [language, setLanguage] = useState(false);
 
     const toggleDropdownAbout = (e) => {
         e.preventDefault();
         setDropdown(!dropdown);
         setFeaturesDropdown(false);
         setContactDropdown(false);
+        setLanguage(false)
     }
 
     const toggleDropdownFeatured = (e) => {
@@ -22,6 +30,7 @@ export default function Header() {
         setFeaturesDropdown(!featuresDropdown)
         setDropdown(false);
         setContactDropdown(false);
+        setLanguage(false)
     }
 
     const toggleDropdownContact = (e) => {
@@ -29,9 +38,38 @@ export default function Header() {
         setContactDropdown(!contactDropdown)
         setDropdown(false);
         setFeaturesDropdown(false);
+        setLanguage(false)
+    }
+
+    const toggleLanguageChange = (e) =>{
+        e.preventDefault();
+        setLanguage(!language);
+        setContactDropdown(false)
+        setDropdown(false)
+        setFeaturesDropdown(false)
     }
 
 
+    //translation:
+    const {t} = useTranslation()
+
+
+const languages = [
+    {code:"en", lang: "English"},
+    {code:"fr", lang: "French"},
+    {code:"it", lang: "Italian"}
+];
+
+
+//cghange language:
+
+const languageChange = (lng) => {
+    i18n.changeLanguage(lng)
+}
+
+
+//i18n
+    const {i18n} = useTranslation();
 
   return (
     <div className="header">
@@ -41,11 +79,11 @@ export default function Header() {
             <circle cx="16.4062" cy="16" r="5" fill="#5CE1E6"/>
             <path d="M21.4062 16C21.4062 15.3434 21.2769 14.6932 21.0256 14.0866C20.7744 13.48 20.4061 12.9288 19.9418 12.4645C19.4775 12.0002 18.9263 11.6319 18.3197 11.3806C17.713 11.1293 17.0629 11 16.4062 11C15.7496 11 15.0995 11.1293 14.4928 11.3806C13.8862 11.6319 13.335 12.0002 12.8707 12.4645C12.4064 12.9288 12.0381 13.48 11.7869 14.0866C11.5356 14.6932 11.4062 15.3434 11.4063 16L16.4062 16H21.4062Z" fill="white"/>
         </svg>
-        <span className="logo-name">HooBank</span>
+        {/* <span className="logo-name">HooBank</span> */}
 
         <nav className="nav">
             <ul className="ul-elements">
-                <li><a href="/">Home</a></li>
+                <li><a href="/">{t("home")}</a></li>
                 <li>
                     {dropdown && (
                         <ul className="dropdown-content">
@@ -54,7 +92,7 @@ export default function Header() {
                             <li><a href="">Become one of us</a></li>
                         </ul>
                     )}
-                    <a href="/" onClick={toggleDropdownAbout}>About Us</a>
+                    <a href="/" onClick={toggleDropdownAbout}>{t("about")}</a>
                     
                 </li>
                 <li>
@@ -65,7 +103,7 @@ export default function Header() {
                         <li><a href="">Possibilities</a></li>
                     </ul>
                     )}
-                    <a href="/" onClick={toggleDropdownFeatured}>Features</a>
+                    <a href="/" onClick={toggleDropdownFeatured}>{t("features")}</a>
                 </li>
                 <li>
                     {contactDropdown && (
@@ -74,9 +112,36 @@ export default function Header() {
                          <li><a href="">Digital Platforms</a></li>
                      </ul>
                     )}
-                    <a href="/" onClick={toggleDropdownContact}>Contact Us</a>
+                    <a href="/" onClick={toggleDropdownContact}>{t("contactUs")}</a>
                     
                 </li>
+
+
+{/* LANGUAGE selector */}
+               <div className="fullModal">
+                     <button className="languageButton" onClick={toggleLanguageChange}>
+                         Choose language
+                    </button>
+                        {language && (
+                        <div className="dropdown-content">
+                            <ul className="languageList">
+                        {languages.map((lng) => (
+                            <li key={lng.code}>
+                            <button className="languageBtn" onClick={() => languageChange(lng.code)}>
+                                {lng.lang}
+                            </button>
+                            </li>
+                        ))}
+                        </ul>
+                        </div>
+
+                        
+                    )}
+               </div>
+                    
+                           
+                    
+                
             </ul>
 
         </nav>

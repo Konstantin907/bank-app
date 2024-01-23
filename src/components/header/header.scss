@@ -9,7 +9,7 @@
     margin: 36px 135px;
 
    .logo-name{
-    margin-left: -250px;
+    margin-left: -160px;
     font-family: 'Poppins', sans-serif;
     color: #5CE1E6;
     font-family: Poppins;
@@ -38,6 +38,16 @@
 
 
 }
+select{
+    width: 50px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    option{
+        color: #000;
+    }
+}
 
 .dropdown-content{
     display: none; /* initially hidden */
@@ -48,6 +58,7 @@
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 26px;
     z-index: 1;
+    border-radius: 10px;
     li {
         padding: 12px 16px;
 
@@ -68,4 +79,35 @@
     display: block;
    background-color: #11d2d8; 
 }
+}
+
+
+//lang change
+
+.languageButton{
+    border: none;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.70);
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.languageList{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+.languageBtn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    &:hover{
+        text-decoration: underline;
+
+    }
+}
+
+
 }
