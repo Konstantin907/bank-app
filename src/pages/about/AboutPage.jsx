@@ -1,6 +1,8 @@
 import React from 'react'
 import "./about.scss"
 import { LiaGripLinesVerticalSolid } from "react-icons/lia";
+import { Team } from '../../components/team/Team';
+import { LineElements } from '../../components/lineElements/LineElements';
 
 
 export const AboutPage = () => {
@@ -30,36 +32,8 @@ export const AboutPage = () => {
 
 
       {/* Elements */}
-      <div className='line-elements'>
-        <div className="first-element">
-            <p className='num1'>600+</p>
-            <span className="active">
-                EXPERTS FOR YOU
-            </span>
-        </div>
-
-        <LiaGripLinesVerticalSolid className='line'/>
-
-        <div className="first-element">
-            <p className='num1'>400</p>
-            <span className="active">
-                OFFICESS AROUND THE WORLD
-            </span>
-        </div>
-
-        <LiaGripLinesVerticalSolid className='line'/>
-
-        <div className="first-element">
-            <p className='num1'>24/7</p>
-            <span className="active">
-                AT YOUR SERVICE
-            </span>
-        </div>
-
-        
-
-    </div>
-      
+      <LineElements num={300 + "+"} slot={"EXPERTS HELPING YOU"} secondNum={400} secondSlot="OFFICES AROUND THE WORLD" thirdNum={24 + "/" + 7} thirdSlot="AVAILABILITY"/>
+      <Team />
 
     </div>
     
