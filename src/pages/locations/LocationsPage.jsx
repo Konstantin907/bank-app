@@ -3,7 +3,7 @@ import Header from '../../components/header/Header';
 
 export const LocationsPage = () => {
   return (
-    <Header />
+   <div>LOcations</div>
   )
 }
 
