@@ -30,7 +30,7 @@
     .card-container {
         display: flex;
         align-items: center;
-        gap:15px;
+        gap:50px;
         margin: 20px;
 
       }
@@ -45,9 +45,6 @@
         height: 260px;
       }
       
-      .quote-icon {
-        
-      }
       
       .quote {
         font-style: italic;
@@ -61,7 +58,10 @@
         position: relative;
       }
       #author{
-        margin-top: 80px;
+        margin-top: 60px;
+      }
+      #author-one{
+        margin-top: 31px;
       }
       
       .author-image {
@@ -89,4 +89,9 @@
         margin: 0;
       }
       
+}
+
+
+.author-info{
+  display: flex;
 }

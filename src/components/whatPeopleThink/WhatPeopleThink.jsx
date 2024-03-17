@@ -27,9 +27,9 @@ export const WhatPeopleThink = () => {
                     <p className="quote">
                     Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.
                     </p>
-                    <div className="author-info">
+                    <div className="author-info" id='author-one'>
                             <img src="/person1.png" alt="Herman Jansen" className="author-image" />
-                        <div className='author-details'>
+                        <div className='author-details'> 
                             <h4 className="author-name">Herman Jansen</h4>
                             <p className='author-title'>Founder & Leader</p>
                         </div>  
