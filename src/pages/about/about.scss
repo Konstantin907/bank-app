@@ -46,6 +46,60 @@
 }
 
 
+.teamFull{
+    margin:100px 135px 300px 130px;
+    
+    
+    .managers{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        gap: 40px;
+        
+        
+
+        .managersInfo{
+           
+
+            img{
+                width: 200px;
+                height: 150px;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: 1s;
+            }
+            img:hover{
+                transform: scale(1.1);
+            }
+            .personal{
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                margin-top: 40px;
+                .name{
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+                .position{
+                    font-weight: 300;
+                    font-size: small;
+                    }
+            }
+            
+        }
+    }
+    .horizontalLine{
+        margin-top: 100px;
+    }
+    .horizontal{
+        margin-top: 60px;
+    }
+    .advertisements{
+        margin-top: 80px;
+        margin-left: 40px;
+    }
+}
+
 
 }
 

@@ -12,6 +12,8 @@ import { AboutPage } from './pages/about/AboutPage';
 import { TeamPage } from './pages/team/TeamPage';
 import {LocationsPage} from './pages/locations/LocationsPage';
 import Header from './components/header/Header';
+import { Footer } from './components/footer/Footer';
+import { Copyrights } from './components/copyrights/Copyrights';
 
 
 function App() {
@@ -29,6 +31,8 @@ function App() {
           <Route path='/team' element={<TeamPage />} />
           <Route path='/locations' element={<LocationsPage />} />
         </Routes>
+        <Footer />
+        <Copyrights />
       </Router> 
     
        
