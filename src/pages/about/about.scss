@@ -2,31 +2,31 @@
     display: flex;
     flex-direction: column;
     gap: 200px;
-
+    
+    
 
     .aboutPage{
     display: flex;
     flex-direction: row;
-    flex-basis: 50%;
-    gap: 10px;
+    gap: 0px;
     align-items: center;
-    margin-top: -40px;
+    margin: -40px 0px 30px -10px;
 
     img{
-        width: 570px;
-        height: 370px;
+        width: 400px;
+        height: 270px;
         margin: 120px;
-        opacity: 0.9;
+        
     }
 
     .right-side{
         margin-top: -60px;
-        
+        margin-left: -35px;
         h1{
-            font-size: 40px;
+            font-size: 30px;
         }
         p{
-            font-size: 20px;
+            font-size: 15px;
         }
         .buttons{
             
@@ -40,6 +40,7 @@
             cursor: pointer;
             color: #000;
         } 
+        
         }
         
     }
@@ -47,15 +48,18 @@
 
 
 .teamFull{
-    margin:100px 135px 300px 130px;
+    margin:100px 135px 300px 0px;
     
+    .headingTeam{
+        margin-left: 80px;
+    }
     
     .managers{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         align-items: center;
         gap: 40px;
-        
+        margin-left: 80px;
         
 
         .managersInfo{
@@ -83,20 +87,23 @@
                 .position{
                     font-weight: 300;
                     font-size: small;
-                    }
+                }
             }
             
         }
     }
     .horizontalLine{
         margin-top: 100px;
+        margin-left: 80px;
     }
     .horizontal{
         margin-top: 60px;
+        margin-left: 80px;
     }
     .advertisements{
         margin-top: 80px;
-        margin-left: 40px;
+        margin-left: 100px;
+        
     }
 }
 
