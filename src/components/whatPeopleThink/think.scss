@@ -1,5 +1,5 @@
 .what-people-think{
-    margin: 350px 135px;
+    margin: 350px 100px;
 
     .upper-heading{
         display: flex;
@@ -58,10 +58,14 @@
         position: relative;
       }
       #author{
-        margin-top: 60px;
+        margin-top: 75px;
       }
       #author-one{
-        margin-top: 33px;
+        margin-top: 0px;
+      }
+
+      #author-two{
+        margin-top: 0px;
       }
       
       .author-image {

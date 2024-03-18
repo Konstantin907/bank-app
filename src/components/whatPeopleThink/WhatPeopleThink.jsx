@@ -83,7 +83,7 @@ export const WhatPeopleThink = () => {
                     <p className="quote">
                     It is usually people in the money business, finance, and international trade that are really rich.
                     </p>
-                    <div className="author-info">
+                    <div className="author-info" id='author-two'>
                             <img src="/person3.png" alt="Kenn Gallagher" className="author-image" />
                         <div className='author-details'>
                             <h4 className="author-name">Kenn Gallagher</h4>
