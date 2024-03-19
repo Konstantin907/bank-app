@@ -12,6 +12,7 @@ import {LocationsPage} from './pages/locations/LocationsPage';
 import { Register } from './pages/Register/Register';
 import { WrapperUseLocation } from './components/WrapperUseLocation';
 import { WrapperHeaderShow } from './components/WrapperHeaderShow';
+import { Login } from './pages/Login/Login';
 
 
 
@@ -31,7 +32,8 @@ function App() {
           <Route path='/info' element={<AboutPage />} />
           <Route path='/locations' element={<LocationsPage />} />
           <Route path='/register' element={<Register />}/>
-          
+          <Route path='/login' element={<Login />}/>
+
         </Routes>
        <WrapperUseLocation />
          

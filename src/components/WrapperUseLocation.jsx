@@ -6,7 +6,7 @@ import Header from './header/Header';
 
 export const WrapperUseLocation = () => {
     const location = useLocation();
-    const showFooter = location.pathname !== '/register';
+    const showFooter = location.pathname !== '/register' && location.pathname !== "/login";
 
   return (
     <>

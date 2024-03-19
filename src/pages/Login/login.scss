@@ -1,0 +1,145 @@
+.registerPage{
+    margin: 35px 150px;
+
+    .background{
+        position: fixed; 
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: url('/login.avif') no-repeat center center;
+        background-size: cover; 
+        z-index: -1; 
+        opacity: 0.7;
+    }
+    .formContainer{
+        display: flex;
+        justify-content: center;
+        z-index: 10;
+        opacity: 0.5;
+        
+    }
+    
+    .form{
+        top: -600px;
+        /* left: 400px; */
+        width: 400px;
+        height: 500px;
+        z-index: 2;
+        border: 1px solid black;
+
+        margin-left: 180px;
+    }
+    
+    input{
+        width: 250px;
+        height: 35px;
+        background-color: #000;
+        color: #737373;
+        border: none;
+        border-radius: 5px;
+    }
+    input::placeholder{
+        padding: 10px;
+    }
+    
+    .inputDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .heading{
+        margin: 20px 0 20px 75px;
+    }
+    
+    .signInBtn{
+        width: 245px;
+        height: 35px;
+        margin-top: 30px;
+        border: none;
+        background-color: #33BBCF;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .linkTab{
+        display: flex;
+        justify-content: center;
+        gap: 90px;
+        margin-top: 5px;
+    }
+    .remember{
+        font-size: 10px;
+        color: white;
+        cursor: pointer;
+    }
+    .help{
+        font-size: 10px;
+        color: white;
+        cursor: pointer;
+    }
+    
+    span:hover{
+        color: #d7bfbf;
+    }
+    
+    .linkToRegisterPage{
+        display: flex;
+        justify-content: center;
+        margin: 50px 0 20px 20px;
+    }
+    
+    .signUpLink{
+        font-size: 10px;
+    }
+    
+    .signUp{
+        font-size: 10px;
+        text-decoration: underline;
+        color: #fff;
+    }
+    .licenceDiv{
+        margin: 10px 0 10px 80px;
+    }
+    .licence{ 
+        font-size: 10px;
+    }
+    
+    .licenseLink{
+        color: #4c89e6;
+    }
+    .heading{
+        margin-left: 94px;
+        background: radial-gradient(64.33% 64.33% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+   .returnBtn{
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    margin-left: -60px;
+   }
+
+   .return{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 30px;
+    border: none;
+    background: radial-gradient(64.33% 64.33% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-size: larger;
+    cursor: pointer;
+   }
+   
+}
