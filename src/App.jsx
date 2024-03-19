@@ -4,39 +4,41 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link,
-  BrowserRouter
+  
 } from "react-router-dom";
 import HomePage from './pages/home/HomePage';
 import { AboutPage } from './pages/about/AboutPage';
-import { TeamPage } from './pages/team/TeamPage';
 import {LocationsPage} from './pages/locations/LocationsPage';
-import Header from './components/header/Header';
-import { Footer } from './components/footer/Footer';
-import { Copyrights } from './components/copyrights/Copyrights';
+import { Register } from './pages/Register/Register';
+import { WrapperUseLocation } from './components/WrapperUseLocation';
+import { WrapperHeaderShow } from './components/WrapperHeaderShow';
+
+
 
 
 function App() {
  
-
   return (
-    <>
+    <div className='App'>
     
     
       <Router>
-        <Header />
+        
+        <WrapperHeaderShow />
         <Routes>
+
           <Route path='/' element={<HomePage />} />
           <Route path='/info' element={<AboutPage />} />
-          <Route path='/team' element={<TeamPage />} />
           <Route path='/locations' element={<LocationsPage />} />
+          <Route path='/register' element={<Register />}/>
+          
         </Routes>
-        <Footer />
-        <Copyrights />
+       <WrapperUseLocation />
+         
       </Router> 
     
        
-    </>
+    </div>
   )
 }
 

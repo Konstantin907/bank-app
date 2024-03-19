@@ -89,7 +89,7 @@ const languageChange = (lng) => {
                         <ul className="dropdown-content">
                             <li><Link to="/info">Info</Link></li>
                             <li><Link to="/team">Team</Link></li>
-                            <li><a href="">Become one of us</a></li>
+                            <li><Link to="/register">Become one of us</Link></li>
                         </ul>
                     )}
                     <a href="/" onClick={toggleDropdownAbout}>{t("about")}</a>
