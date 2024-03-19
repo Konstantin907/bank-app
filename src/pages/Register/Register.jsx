@@ -1,11 +1,19 @@
 import React from 'react'
 import "./register.scss"
 import { Link } from 'react-router-dom'
+import { FaArrowLeft } from "react-icons/fa";
 
 export const Register = () => {
   return (
     <div className='registerPage'>
         <div className="background"></div>
+
+        <div className="returnBtn">
+            <Link><button className="return">
+                <FaArrowLeft /> Return to Home Page
+                </button>
+            </Link>
+        </div>
 
        
         <form className="form">
