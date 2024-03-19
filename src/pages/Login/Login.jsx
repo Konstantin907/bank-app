@@ -9,7 +9,7 @@ export const Login = () => {
         <div className="background"></div>
 
         <div className="returnBtn">
-            <Link><button className="return">
+            <Link to="/"><button className="return">
                 <FaArrowLeft /> Return to Home Page
                 </button>
             </Link>

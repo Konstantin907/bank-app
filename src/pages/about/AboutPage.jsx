@@ -47,7 +47,7 @@ export const AboutPage = () => {
             <button className="scrollBtn">Click here to meet our the team</button>
           </Link>
               
-          
+           
           
         </div>
           

@@ -21,12 +21,17 @@
 
     .right-side{
         margin-top: -60px;
-        margin-left: -35px;
+        margin-left: -75px;
         h1{
             font-size: 30px;
+            background: radial-gradient(64.33% 64.33% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
         p{
             font-size: 15px;
+            color: rgba(255, 255, 255, 0.70);
         }
         .buttons{
             
@@ -74,7 +79,7 @@
             }
             img:hover{
                 transform: scale(1.1);
-            }
+            } 
             .personal{
                 display: flex;
                 flex-direction: column;
