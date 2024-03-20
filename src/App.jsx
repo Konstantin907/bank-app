@@ -13,6 +13,7 @@ import { Register } from './pages/Register/Register';
 import { WrapperUseLocation } from './components/WrapperUseLocation';
 import { WrapperHeaderShow } from './components/WrapperHeaderShow';
 import { Login } from './pages/Login/Login';
+import { Credit } from './pages/credit-calc/Credit';
 
 
 
@@ -33,6 +34,7 @@ function App() {
           <Route path='/locations' element={<LocationsPage />} />
           <Route path='/register' element={<Register />}/>
           <Route path='/login' element={<Login />}/>
+          <Route path='/credit-calculator' element={<Credit />}/>
 
         </Routes>
        <WrapperUseLocation />

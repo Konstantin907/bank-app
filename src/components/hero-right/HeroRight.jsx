@@ -1,5 +1,6 @@
 import React from 'react'
 import "./right.scss"
+import { Link } from "react-router-dom"
 
 export default function HeroRight() {
   return (
@@ -52,7 +53,7 @@ export default function HeroRight() {
     </svg>
 
 
-    <button className='get-started'>Get Started</button>
+    <Link to="/credit-calculator"><button className='get-started'>Get Started</button></Link>
 </div>
 )
 }
