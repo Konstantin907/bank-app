@@ -2,7 +2,7 @@ footer{
     display: flex;
     align-items: center;
     gap: 60px;
-    margin: -180px 150px;
+    margin: -150px 150px;
 .footer{
     display: flex;
     flex-direction: column;
@@ -38,7 +38,7 @@ footer{
     
     }
 }
-p{
+p{ 
         color: rgba(255, 255, 255, 0.70);
         font-size: 14px;
         font-style: normal;
@@ -58,9 +58,7 @@ p{
         align-items: center;
         margin-top: -10px;
 
-        h4{
-
-        }
+       
         a{
             text-decoration: none;
             color: rgba(255, 255, 255, 0.70);
