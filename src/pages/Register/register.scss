@@ -29,6 +29,10 @@
         border: 1px solid black;
 
         margin-left: 180px;
+
+        .heading{
+            margin-left: 65px;
+        }
     }
     
     input{
@@ -51,9 +55,7 @@
         gap: 15px;
     }
     
-    .heading{
-        margin: 20px 0 20px 75px;
-    }
+    
     
     .signInBtn{
         width: 245px;
