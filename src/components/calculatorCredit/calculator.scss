@@ -3,6 +3,10 @@
     margin-bottom: 280px;
     
 
+    .headingCalc{
+        
+    }
+
     .inputRange{
         display: flex;
         justify-content: center;
@@ -16,6 +20,10 @@
            display: flex;
            flex-direction: column;
            align-items: center;
+
+           h6{
+            color: #b3ae9c;
+        }
 
            .scroller{
                 width: 200px;
@@ -35,6 +43,10 @@
             flex-direction: column;
             align-items: center;
 
+            h6{
+                color: #b3ae9c;
+            }
+
             .scroller{
                 width: 200px;
             }
@@ -44,6 +56,24 @@
                     height: 20px;
                 }
             
+        }
+    }
+    .secondPart{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 50px;
+        align-items: center;
+
+        h3{
+            font-size: 15px;
+            color: #b3ae9c;
+            span{
+                font-size: 25px;
+                color: #fff;
+                margin-left: 10px;
+            }
         }
     }
 }
