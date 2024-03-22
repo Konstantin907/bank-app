@@ -54,7 +54,13 @@ export const Calculator = () => {
   return (
     <div className='container'>
         <div className="headingCalc">
-            <h1>Credit calculator</h1>
+            <h1>Credit calculator:</h1> 
+            <p>Welcome to our Loan Calculator page!  <br /> <br /> Taking out a loan is a significant financial decision that can impact your life for years to come. Whether you're considering buying a home, financing a car, or funding your education, understanding the ins and outs of borrowing is crucial. <br />
+            Here at HooBank, we believe in empowering our clients with the tools and knowledge they need to make informed financial choices. Our loan calculator is designed to provide you with a clear picture of what to expect when you consider borrowing money. <br />
+            By adjusting the loan amount and repayment term, you can simulate different scenarios and plan your finances accordingly. This tool will give you an insight into the monthly payments, total interest payable, and the overall cost of the loan, helping you to budget effectively and decide what's right for you.
+            Remember, taking out a loan is a commitment, and it's important to choose terms that align with your financial goals and capabilities. We encourage you to explore various options, ask questions, and consider your long-term financial health when making borrowing decisions.
+            Start planning your financial future today with our loan calculator and step confidently into your financial journey!
+</p>
         </div>
         
         <div className="inputRange">

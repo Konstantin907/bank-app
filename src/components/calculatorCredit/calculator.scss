@@ -4,7 +4,26 @@
     
 
     .headingCalc{
-        
+        margin: 0 auto; 
+        max-width: 800px; 
+        padding: 20px; 
+        text-align: center; 
+    
+        h1{
+            text-align: center;
+            margin-bottom: 15px;
+            background: radial-gradient(64.33% 64.33% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p{
+           //width: 500px;
+            text-align: center;
+            margin: 30px 50px 50px 50px;
+            color: #e4d0b8;
+            line-height: 1.8;
+        }
     }
 
     .inputRange{
