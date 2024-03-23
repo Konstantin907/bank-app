@@ -1,6 +1,12 @@
+.container{
 .registerPage{
-    margin: 35px 150px;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    margin: 0;
+   
 
     .background{
         position: fixed; 
@@ -22,8 +28,7 @@
     }
     
     .form{
-        top: -600px;
-        /* left: 400px; */
+        
         width: 400px;
         height: 500px;
         z-index: 2;
@@ -31,7 +36,6 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        
     }
     
     input{
@@ -146,3 +150,5 @@
    }
    
 }
+}
+

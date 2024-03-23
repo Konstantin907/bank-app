@@ -5,16 +5,17 @@ import { FaArrowLeft } from "react-icons/fa";
 
 export const Login = () => {
   return (
+    <div className='container'>
     <div className='registerPage'>
-        <div className="background"></div>
 
-        <div className="returnBtn">
+      <div className="returnBtn">
             <Link to="/"><button className="return">
                 <FaArrowLeft /> Return to Home Page
                 </button>
             </Link>
         </div>
- 
+        <div className="background"></div>
+
        
         <form className="form">
           <h2 className="heading">Welcome back!</h2>
@@ -46,6 +47,7 @@ export const Login = () => {
         </form>
 
 
+    </div>
     </div>
   )
 }
