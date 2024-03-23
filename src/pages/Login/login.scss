@@ -1,9 +1,10 @@
 .registerPage{
     margin: 35px 150px;
+    
 
     .background{
         position: fixed; 
-        top: 0;
+        top: 0; 
         left: 0;
         width: 100vw;
         height: 100vh;
@@ -27,8 +28,10 @@
         height: 500px;
         z-index: 2;
         border: 1px solid black;
-
-        margin-left: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
     }
     
     input{
