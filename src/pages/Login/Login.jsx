@@ -5,7 +5,7 @@ import { FaArrowLeft } from "react-icons/fa";
 
 export const Login = () => {
   return (
-    <div className='container'>
+    <div className=''>
     <div className='registerPage'>
 
       <div className="returnBtn">
