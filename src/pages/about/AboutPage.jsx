@@ -29,7 +29,7 @@ export const AboutPage = () => {
   
   
   return (
-    <div className='fullPage'>
+    <div className='fullPage'> 
       <div className="aboutPage">
         
         <div className="leftSide">
