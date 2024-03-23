@@ -9,9 +9,10 @@
     .aboutPage{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 0px;
     align-items: center;
-    margin: -40px 0px 30px -10px;
+    margin-top: -40px;
 
     img{
         width: 400px;
