@@ -92,6 +92,12 @@ export const WhatPeopleThink = () => {
                     </div>
             </div>
 
+           
+
+           
+
+            
+
 
 </div>
 
