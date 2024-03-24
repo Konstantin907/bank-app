@@ -106,6 +106,48 @@ export const AboutPage = () => {
                 
             </div>
 
+
+            {/* next go here PR, HR ADVISORS IT*/}
+
+            <div className="managersInfo">
+                <img src="/Melanie.jpg" alt="" />
+                    <div className="personal">
+                        <span className="name">Melanie Kloster</span>
+                        <span className="position">PR Sector</span>
+                    </div>
+                
+            </div>
+
+
+            <div className="managersInfo">
+                <img src="/diana.jpg" alt="" />
+                    <div className="personal">
+                        <span className="name">Diana Keller</span>
+                        <span className="position">IT sector</span>
+                    </div>
+                
+            </div>
+
+
+            <div className="managersInfo">
+                <img src="/trevis.webp" alt="" />
+                    <div className="personal">
+                        <span className="name">Trevis Forman</span>
+                        <span className="position">HR Sector</span>
+                    </div>
+                
+            </div>
+
+
+            <div className="managersInfo">
+                <img src="/rodrigo.webp" alt="" />
+                    <div className="personal">
+                        <span className="name">Rodrigo Mertens</span>
+                        <span className="position">Credit Advisor</span>
+                    </div>
+                
+            </div>
+
             
         </div>
 

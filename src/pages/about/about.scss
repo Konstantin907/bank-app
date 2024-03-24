@@ -62,10 +62,11 @@
 
 
 .teamFull{
-    margin:100px 135px 300px 0px;
+    // margin:100px 135px 300px 0px;
     
     .headingTeam{
         margin-left: 80px;
+        font-size: 30px;
     }
     
     .managers{
@@ -81,8 +82,8 @@
            
 
             img{
-                width: 200px;
-                height: 150px;
+                width: 330px;
+                height: 300px;
                 border-radius: 10px;
                 cursor: pointer;
                 transition: 1s;
@@ -97,11 +98,11 @@
                 margin-top: 40px;
                 .name{
                     font-weight: bold;
-                    font-size: 20px;
+                    font-size: 40px;
                 }
                 .position{
                     font-weight: 300;
-                    font-size: small;
+                    font-size: larger;
                 }
             }
             
