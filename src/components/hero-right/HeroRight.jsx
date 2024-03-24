@@ -6,7 +6,7 @@ export default function HeroRight() {
   return (
     <div className='right-side-hero'>
     <img className='hand-img' src="/hand.png" alt="" />
-    <svg className='svg' xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 767 768" fill="none">
+    <svg className='svg' xmlns="http://www.w3.org/2000/svg" width="250" height="250" viewBox="0 0 767 768" fill="none">
             <g filter="url(#filter0_f_1_38)">
                 <path d="M124 73L298.468 644H502.608L702 73H124Z" fill="url(#paint0_linear_1_38)"/>
                 <path d="M124 73L298.468 644H502.608L702 73H124Z" stroke="black"/>
@@ -38,7 +38,7 @@ export default function HeroRight() {
                 </defs>
     </svg>
 
-    <svg className='upper-bubble' xmlns="http://www.w3.org/2000/svg" width="30" height="60" viewBox="0 0 101 101" fill="none">
+    <svg className='upper-bubble' xmlns="http://www.w3.org/2000/svg" width="80" height="60" viewBox="0 0 101 101" fill="none">
                     <path d="M47.2192 100.884C19.3322 99.0093 -1.75885 74.8718 0.115905 47.2192C2.22501 19.3322 26.1282 -1.75885 54.0152 0.115905C81.6678 2.22501 102.759 26.1282 100.884 54.0152C99.0093 81.6678 74.8718 102.759 47.2192 100.884Z" fill="url(#paint0_radial_1_252)"/>
                     <defs>
                         <radialGradient id="paint0_radial_1_252" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(71.8682 36.0489) rotate(93.8705) scale(64.9684)">

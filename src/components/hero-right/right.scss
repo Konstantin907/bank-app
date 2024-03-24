@@ -1,41 +1,51 @@
-.right-side-hero{
+.right-side-hero{ 
 
     display: flex;
     flex-direction: column-reverse;
     margin-top: -50px;
 
     .hand-img{
-    width: 350px;
-    height: 300px;
+    width: 440px;
+    height: 450px;
     position: relative;
-    top: -310px;
+    top: -340px;
 }
 
 .get-started{
     position: relative;
-    top: 50px;
-    left: 70px;
-    width: 150px;
-    height: 140px;
+    top: 80px;
+    left: 120px;
+    width: 200px;
+    height: 180px;
     background: transparent;
     color: #33BBCF;
     border: 2px solid #33BBCF;
     border-radius: 50%;
     cursor: pointer;
+    font-size: x-large;
+
+    &:hover{
+        background-color: #33BBCF;
+        color: black;
+        transition: 1s;
+    }
+
 }
 .svg{
     position: relative;
-    left: 40px;
-    top: -120px;
+    left: 80px;
+    top: -70px;
 }
 .lower-bubble{
     position: relative;
-    right: -250px;
+    right: -320px;
     top: 40px;
 }
 .upper-bubble{
     position: relative;
     top: -100px;
+    right: -30;
+    height: 30px;
 }
 }
 
