@@ -62,7 +62,7 @@ export const WhatPeopleThink = () => {
                         <div className='author-details'>
                             <h4 className="author-name">Steve Mark</h4>
                             <p className='author-title'>Founder & Leader</p>
-                        </div>  
+                        </div>   
                     </div>
             </div>
 

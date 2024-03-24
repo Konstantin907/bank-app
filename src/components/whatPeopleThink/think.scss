@@ -1,5 +1,6 @@
 .what-people-think{
-    margin: 350px 100px;
+    margin: 320px 150px;
+    margin-bottom: 330px;
 
     .upper-heading{
         display: flex;
@@ -18,7 +19,7 @@
         p{
             color: rgba(255, 255, 255, 0.70);
             font-family: Poppins;
-            font-size: 15px;
+            font-size: 25px;
             font-style: normal;
             font-weight: 400;
             line-height: 180%; 
@@ -30,8 +31,8 @@
     .card-container {
         display: flex;
         justify-content: center;
-        gap: 70px;
-        margin: 20px
+        gap: 100px;
+        margin: 30px
       }
       
       .card {
@@ -44,21 +45,22 @@
         padding: 25px;
         box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         width: 100%;
-        height: 280px;
+        height: 300px;
       }
       
       
       .quote {
         font-style: italic;
         color: #fff;
-        height: 200px;
+        height: 250px;
+        font-size: 25px;
       }
       
       .author-info {
         display: flex;
         align-items: center;
-       
-      }
+        font-size: 30px;
+      } 
       // #author{
       //   margin-top: 75px;
       // }
@@ -72,9 +74,9 @@
       
       .author-image {
         border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        margin-right: 10px;
+        width: 80px;
+        height: 80px;
+        margin-right: 20px;
       }
       
       .author-details {
@@ -84,14 +86,14 @@
       
       .author-name {
         color: #fff;
-        font-size: medium;
+        font-size: 25px;
         font-weight: bold;
         margin: 0;
       }
       
       .author-title {
         color: #777;
-        font-size: small;
+        font-size: 20px;
         margin: 0;
       }
       

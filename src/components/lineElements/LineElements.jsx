@@ -7,7 +7,7 @@ export const LineElements = ({slot="USER ACTIVE", secondSlot="TRUSTED BY COMPANY
   return (
     <div className='line-elements'>
         <div className="first-element">
-            <p className='num1'>{num}</p>
+            <p className='num1'>{num}</p> 
             <span className="active">
                 {slot}
             </span>
