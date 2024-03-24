@@ -5,12 +5,12 @@ import { WhatPeopleThink } from '../../components/whatPeopleThink/WhatPeopleThin
 
 export default function HomePage() {
   return (
-    <>
+    <div className='home'>
         
         <HeroSection />
         <LineElements /> 
         <WhatPeopleThink />
           
-    </>
+    </div>
   )
 }

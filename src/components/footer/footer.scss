@@ -1,22 +1,23 @@
 footer{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 60px;
-    margin: -150px 150px;
+    gap: 0px;
+    margin: -10px 150px;
 .footer{
     display: flex;
     flex-direction: column;
     
 
       .footer-left{
-
+ 
         display: flex;
         align-items: center;
         gap: 10px;
 
         .logo{
-        width: 33px;
-        height: 32px;
+        width: 83px;
+        height: 82px;
     }
     .logos{
         display: flex;
@@ -26,7 +27,7 @@ footer{
         h3{
         color: #FFF;
         font-family: Poppins;
-        font-size: 25px;
+        font-size: 45px;
         font-style: normal;
         font-weight: 600;
         line-height: 130%;
@@ -40,7 +41,7 @@ footer{
 }
 p{ 
         color: rgba(255, 255, 255, 0.70);
-        font-size: 14px;
+        font-size: 25px;
         font-style: normal;
         font-weight: 400;
             }
@@ -48,7 +49,7 @@ p{
 .footer-right{
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 60px;
     
 
 
@@ -62,14 +63,14 @@ p{
         a{
             text-decoration: none;
             color: rgba(255, 255, 255, 0.70);
-            font-size: 14px;
+            font-size: 20px;
             margin-top: 10px;
         }
     }
 }
 
 #part{
-    margin-top: -100px;
+    margin-top: -130px;
 }   
     }
   
