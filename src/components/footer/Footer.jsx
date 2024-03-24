@@ -53,11 +53,12 @@ const Footer = () => {
                         <a href="">Become a Partner</a>
                 </div>
 
-            </div>
+            </div> 
 
            
-        
+       
     </footer>
+    
   )
 }
 
