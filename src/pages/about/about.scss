@@ -1,50 +1,58 @@
 .fullPage{
     display: flex;
     flex-direction: column;
-    gap: 150px; 
+    gap: 150px;  
     
     
 
     .aboutPage{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    gap: 0px;
+    justify-content: center;
+    gap: 80px;
     align-items: center;
     margin-top: -40px;
 
     img{
-        width: 400px;
-        height: 270px;
+        width: 700px;
+        height: 470px;
         margin: 120px;
         
     }
 
     .right-side{
         margin-top: -60px;
-        margin-left: -75px;
+         margin-left: -75px;
         h1{
-            font-size: 30px;
+            font-size: 55px;
             background: radial-gradient(64.33% 64.33% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%);
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
         p{
-            font-size: 15px;
+            font-size: 30px;
             color: rgba(255, 255, 255, 0.70);
         }
         .buttons{
             
            .scrollBtn{
             margin-top: 30px;
-            width: 300px;
-            height: 30px;
+            width: 450px;
+            height: 70px;
             border: none;
-            background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+            background-color: #5bcfe0;
+            //background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
             border-radius: 30px;
+            font-size: 25px;
             cursor: pointer;
             color: #000;
+
+            &:hover{
+                background-color: black;
+                color: white;
+                transition: 1s;
+            }
         } 
         
         }

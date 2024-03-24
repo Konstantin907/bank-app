@@ -30,7 +30,7 @@ export const AboutPage = () => {
   
   return (
     <div className='fullPage'> 
-      <div className="aboutPage">
+      <div className="aboutPage"> 
         
         <div className="leftSide">
           <img className='backgroundImg' src="/global.jpg" alt="background-cover" />
