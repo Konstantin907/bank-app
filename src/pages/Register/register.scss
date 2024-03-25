@@ -1,5 +1,6 @@
 .registerPage{
-    margin: 35px 150px;
+    // margin: 35px 150px; 
+
 
     .background{
         position: fixed; 
@@ -12,32 +13,39 @@
         z-index: -1; 
         opacity: 0.7;
     }
-    .formContainer{
+
+    .formDiv{
+
         display: flex;
         justify-content: center;
+        .formContainer{
+        display: flex;
+        justify-content: space-around;
         z-index: 10;
         opacity: 0.5;
         
     }
     
     .form{
-        top: -600px;
-        /* left: 400px; */
-        width: 400px;
-        height: 500px;
+       border-radius: 20px;
+        width: 600px;
+        height: 700px;
         z-index: 2;
         border: 1px solid black;
 
-        margin-left: 180px;
+       
 
         .heading{
-            margin-left: 65px;
+            display: flex;
+            justify-content: center;
+            margin-left: 5px;
+            font-size: 40px;
         }
     }
     
     input{
-        width: 250px;
-        height: 35px;
+        width: 400px;
+        height: 55px;
         background-color: #000;
         color: #737373;
         border: none;
@@ -45,6 +53,7 @@
     }
     input::placeholder{
         padding: 10px;
+        font-size: x-large;
     }
     
     .inputDiv{
@@ -58,9 +67,10 @@
     
     
     .signInBtn{
-        width: 245px;
-        height: 35px;
+        width: 400px;
+        height: 55px;
         margin-top: 30px;
+        font-size: x-large;
         border: none;
         background-color: #33BBCF;
         border-radius: 5px;
@@ -70,16 +80,16 @@
     .linkTab{
         display: flex;
         justify-content: center;
-        gap: 90px;
+        gap: 150px;
         margin-top: 5px;
     }
     .remember{
-        font-size: 10px;
+        font-size: 18px;
         color: white;
         cursor: pointer;
     }
     .help{
-        font-size: 10px;
+        font-size: 18px;
         color: white;
         cursor: pointer;
     }
@@ -92,14 +102,15 @@
         display: flex;
         justify-content: center;
         margin: 50px 0 20px 20px;
+        
     }
     
     .signUpLink{
-        font-size: 10px;
+        font-size: 18px;
     }
     
     .signUp{
-        font-size: 10px;
+        font-size: 18px;
         text-decoration: underline;
         color: #fff;
     }
@@ -107,7 +118,7 @@
         margin: 10px 0 10px 80px;
     }
     .licence{ 
-        font-size: 10px;
+        font-size: 18px;
     }
     
     .licenseLink{
@@ -120,13 +131,15 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+}
 
    .returnBtn{
     display: flex;
     align-items: center;
-    margin-top: -20px;
-    margin-bottom: 20px;
-    margin-left: -60px;
+    font-size: x-large;
+    margin-top: 20px;
+    margin-left: 60px;
+
    }
 
    .return{
@@ -143,5 +156,7 @@
     font-size: larger;
     cursor: pointer;
    }
+    
+    
    
 }

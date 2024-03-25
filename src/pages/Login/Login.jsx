@@ -1,26 +1,25 @@
 import React from 'react'
 import "./login.scss"
 import { Link } from 'react-router-dom'
-import { FaArrowLeft } from "react-icons/fa";
+import { FaArrowLeft } from "react-icons/fa"; 
 
 export const Login = () => {
   return (
-    <div className=''>
     <div className='registerPage'>
+        <div className="background"></div>
 
-      <div className="returnBtn">
+        <div className="returnBtn">
             <Link to="/"><button className="return">
                 <FaArrowLeft /> Return to Home Page
                 </button>
             </Link>
         </div>
-        <div className="background"></div>
 
-       
+       <div className='formDiv'>
         <form className="form">
           <h2 className="heading">Welcome back!</h2>
           <div className="inputDiv">
-            
+          
               <input type="text" placeholder="Email" id="email" />
               <input type="text" placeholder="Password" id="password"/>
               <button className="signInBtn" type="submit">Sign In</button>
@@ -34,7 +33,7 @@ export const Login = () => {
             </Link>    
           </div>
         <div className="linkToRegisterPage">
-          <p className="signUpLink">First time with us? <Link to="/register" className="signUp">Sign Up now.</Link> </p>
+          <p className="signUpLink">New member? <Link to="/register" className="signUp">Sign Up now.</Link> </p>
         </div>
         <div className="licenceDiv">
            <p className="licence">
@@ -46,8 +45,9 @@ export const Login = () => {
 
         </form>
 
+       </div>
+        
 
-    </div>
     </div>
   )
 }

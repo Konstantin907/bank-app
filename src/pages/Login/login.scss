@@ -1,148 +1,162 @@
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  position: relative;
-  margin: 0;
-  overflow: hidden;
+.registerPage{
+  // margin: 35px 150px; 
 
-  .background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url('/login.avif') no-repeat center center;
-    background-size: cover;
-    z-index: -1;
-    opacity: 0.7;
+
+  .background{
+      position: fixed; 
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: url('/login.avif') no-repeat center center;
+      background-size: cover; 
+      z-index: -1; 
+      opacity: 0.7;
   }
 
-  .returnBtn {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    z-index: 2;
-    button {
+  .formDiv{
+
       display: flex;
-      align-items: center;
-      gap: 10px;
-      height: 30px;
-      border: none;
-      background: none;
-      color: white;
-      font-size: larger;
-      cursor: pointer;
-      &:hover {
-        text-decoration: underline;
-      }
-    }
+      justify-content: center;
+      .formContainer{
+      display: flex;
+      justify-content: space-around;
+      z-index: 10;
+      opacity: 0.5;
+      
   }
+  
+  .form{
+     border-radius: 20px;
+      width: 600px;
+      height: 700px;
+      z-index: 2;
+      border: 1px solid black;
 
-  .registerPage {
-    z-index: 2;
-    width: 400px;
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.8);
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+     
 
-    .form {
+      .heading{
+          display: flex;
+          justify-content: center;
+          margin-left: 5px;
+          font-size: 40px;
+      }
+  }
+  
+  input{
+      width: 400px;
+      height: 55px;
+      background-color: #000;
+      color: #737373;
+      border: none;
+      border-radius: 5px;
+  }
+  input::placeholder{
+      padding: 10px;
+      font-size: x-large;
+  }
+  
+  .inputDiv{
       display: flex;
       flex-direction: column;
+      justify-content: center;
       align-items: center;
-      width: 100%;
-      h2.heading {
-        color: white;
-        text-align: center;
-        margin-bottom: 20px;
-      }
-
-      .inputDiv {
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        width: 100%;
-        input {
-          width: calc(100% - 20px);
-          height: 35px;
-          background-color: #000;
-          color: #fff;
-          border: none;
-          border-radius: 5px;
-          padding: 10px;
-          &::placeholder {
-            color: #737373;
-          }
-        }
-
-        button.signInBtn {
-          width: calc(100% - 20px);
-          height: 35px;
-          border: none;
-          background-color: #33BBCF;
-          border-radius: 5px;
-          color: white;
-          cursor: pointer;
-          margin-top: 15px;
-          &:hover {
-            background-color: darken(#33BBCF, 10%);
-          }
-        }
-      }
-
-      .linkTab {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 20px;
-        a {
-          color: white;
-          font-size: 12px;
-          text-decoration: none;
-          &:hover {
-            text-decoration: underline;
-          }
-        }
-        .remember, .help {
-          cursor: pointer;
-        }
-      }
-
-      .linkToRegisterPage {
-        margin-top: 30px;
-        p.signUpLink {
-          font-size: 12px;
-          color: white;
-          a.signUp {
-            text-decoration: underline;
-            color: #4c89e6;
-            &:hover {
-              color: darken(#4c89e6, 10%);
-            }
-          }
-        }
-      }
-
-      .licenceDiv {
-        margin-top: 30px;
-        p.licence {
-          font-size: 12px;
-          color: white;
-          a.licenseLink {
-            color: #4c89e6;
-            text-decoration: none;
-            &:hover {
-              text-decoration: underline;
-            }
-          }
-        }
-      }
-    }
+      gap: 15px;
   }
+  
+  
+  
+  .signInBtn{
+      width: 400px;
+      height: 55px;
+      margin-top: 30px;
+      font-size: x-large;
+      border: none;
+      background-color: #33BBCF;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  .linkTab{
+      display: flex;
+      justify-content: center;
+      gap: 150px;
+      margin-top: 5px;
+  }
+  .remember{
+      font-size: 18px;
+      color: white;
+      cursor: pointer;
+  }
+  .help{
+      font-size: 18px;
+      color: white;
+      cursor: pointer;
+  }
+  
+  span:hover{
+      color: #d7bfbf;
+  }
+  
+  .linkToRegisterPage{
+      display: flex;
+      justify-content: center;
+      margin: 50px 0 20px 20px;
+      
+  }
+  
+  .signUpLink{
+      font-size: 18px;
+  }
+  
+  .signUp{
+      font-size: 18px;
+      text-decoration: underline;
+      color: #fff;
+  }
+  .licenceDiv{
+      margin: 10px 0 10px 80px;
+  }
+  .licence{ 
+      font-size: 18px;
+  }
+  
+  .licenseLink{
+      color: #4c89e6;
+  }
+  .heading{
+      margin-left: 64px;
+      background: radial-gradient(64.33% 64.33% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+}
+
+ .returnBtn{
+  display: flex;
+  align-items: center;
+  font-size: x-large;
+  margin-top: 20px;
+  margin-left: 60px;
+
+ }
+
+ .return{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 30px;
+  border: none;
+  background: radial-gradient(64.33% 64.33% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  text-decoration: none;
+  font-size: larger;
+  cursor: pointer;
+ }
+  
+  
+ 
 }

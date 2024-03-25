@@ -1,7 +1,7 @@
 import React from 'react'
 import "./register.scss"
 import { Link } from 'react-router-dom'
-import { FaArrowLeft } from "react-icons/fa";
+import { FaArrowLeft } from "react-icons/fa"; 
 
 export const Register = () => {
   return (
@@ -15,7 +15,7 @@ export const Register = () => {
             </Link>
         </div>
 
-       
+       <div className='formDiv'>
         <form className="form">
           <h2 className="heading">Welcome to our team!</h2>
           <div className="inputDiv">
@@ -45,6 +45,8 @@ export const Register = () => {
 
         </form>
 
+       </div>
+        
 
     </div>
   )
