@@ -14,6 +14,7 @@ import { Login } from './pages/Login/Login';
 import { Credit } from './pages/credit-calc/Credit';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
+import { Currency } from './pages/currencyExchange/Currency';
 
 // Layout component for displaying header and footer conditionally
 const Layout = () => {
@@ -47,6 +48,7 @@ function App() {
             <Route path='/info' element={<AboutPage />} />
             <Route path='/locations' element={<LocationsPage />} />
             <Route path='/credit-calculator' element={<Credit />}/>
+            <Route path="/currency-exchange" element={<Currency />}/>
           </Route>
 
         </Routes>

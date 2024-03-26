@@ -88,7 +88,7 @@ const languageChange = (lng) => {
                     {dropdown && (
                         <ul className="dropdown-content">
                             <li><Link to="/info">Info</Link></li>
-                            <li><Link to="/team">Team</Link></li>
+                            <li><Link to="/currency-exchange">Currency Exchange</Link></li>
                             <li><Link to="/register">Become one of us</Link></li>
                         </ul>
                     )}
