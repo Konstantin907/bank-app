@@ -67,7 +67,7 @@ export const Calculator = () => {
             
             <div className="resultCredit">
                
-                    <h6>Value of the credit you want:</h6>
+                    <h6>Value of the credit:</h6>
                     <input 
                         onChange={handleCreditChange} 
                         type="text" 

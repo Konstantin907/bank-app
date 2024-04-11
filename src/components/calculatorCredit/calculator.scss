@@ -5,7 +5,7 @@
 
     .headingCalc{
         margin: 0 auto; 
-        max-width: 800px; 
+        max-width: 1000px; 
         padding: 20px; 
         text-align: center; 
     
@@ -16,13 +16,18 @@
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            font-size: 50px;
         }
         p{
-           //width: 500px;
+           width: 100%;
             text-align: center;
             margin: 30px 50px 50px 50px;
             color: #b3b4b7;
             line-height: 1.8;
+            font-size: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
     }
 
@@ -32,26 +37,28 @@
         align-items: center;
         width: 300px;
         margin: 0 auto;
-        gap: 200px;
+        gap: 320px;
         
 
         .months{
            display: flex;
            flex-direction: column;
            align-items: center;
+           font-size: 30px;
 
            h6{
             color: #b3ae9c;
         }
 
            .scroller{
-                width: 200px;
+                width: 250px;
            }
 
                 input{
-                    width: 150px;
-                    height: 20px;
-                
+                    width: 250px;
+                    height: 50px;
+                    font-size: 30px;
+               
             }
             
         }
@@ -61,19 +68,22 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            font-size: 30px;
 
             h6{
                 color: #b3ae9c;
             }
 
             .scroller{
-                width: 200px;
+                width: 250px;
             }
 
-                input{
-                    width: 150px;
-                    height: 20px;
-                }
+            input{
+                width: 250px;
+                height: 50px;
+                font-size: 30px;
+           
+        }
             
         }
     }
@@ -84,12 +94,13 @@
         gap: 40px;
         margin-top: 50px;
         align-items: center;
+        
 
         h3{
-            font-size: 15px;
+            font-size: 25px;
             color: #b3ae9c;
             span{
-                font-size: 25px;
+                font-size: 34px;
                 color: #fff;
                 margin-left: 10px;
             }
