@@ -1,11 +1,10 @@
 import "./header.scss"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import {
   Link
 } from "react-router-dom";
 import {useTranslation} from "react-i18next"
-
-
+import { useLocation } from 'react-router-dom';
 
 
 
@@ -16,6 +15,26 @@ export default function Header() {
     const [contactDropdown, setContactDropdown] = useState(false)
     //language
     const [language, setLanguage] = useState(false);
+    const location = useLocation();
+
+
+    //closing all dropdowns
+    useEffect(() => {
+        
+        const closeAllDropdowns = () => {
+            setDropdown(false);
+            setFeaturesDropdown(false);
+            setContactDropdown(false);
+            setLanguage(false);
+        };
+
+        
+        closeAllDropdowns();
+
+        
+    }, [location]); //when location changes
+    
+
 
     const toggleDropdownAbout = (e) => {
         e.preventDefault();
@@ -70,7 +89,9 @@ const languageChange = (lng) => {
 
 //i18n
     const {i18n} = useTranslation();
- 
+
+
+    
   return (
     <div className="header">
         <svg xmlns="http://www.w3.org/2000/svg" width="53" height="62" viewBox="0 0 33 32" fill="none">
