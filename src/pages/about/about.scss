@@ -87,6 +87,8 @@
                 border-radius: 10px;
                 cursor: pointer;
                 transition: 1s;
+                object-fit: cover;
+                object-position: center;
             }
             img:hover{
                 transform: scale(1.1);
