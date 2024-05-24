@@ -5,20 +5,10 @@
 .header{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
     margin: 36px 135px;
 
-   .logo-name{
-    margin-left: -160px;
-    font-family: 'Poppins', sans-serif;
-    color: #5CE1E6;
-    font-family: Poppins;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 130%;
-} 
-
+  
 .ul-elements{
     list-style: none;
     display: flex;
@@ -29,7 +19,7 @@
       text-decoration: none;  
       color: rgba(255, 255, 255, 0.70);
       font-family: Poppins;
-      font-size: 30px;
+      font-size: 18px;
 
       &:active{
         color: #fff;
