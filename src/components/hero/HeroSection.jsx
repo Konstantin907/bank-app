@@ -9,7 +9,7 @@ export default function HeroSection() {
         <HeroLeft />
         <HeroRight />
     </div>
-
+ 
     
   )
 }
