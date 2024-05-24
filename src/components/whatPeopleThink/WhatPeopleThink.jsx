@@ -7,7 +7,7 @@ export const WhatPeopleThink = () => {
         <div className="upper-heading">
             <h3>What people are <br /> saying about us</h3>
             <p>Everything you need to accept card payments <br /> and grow your business anywhere on the planet.</p>
-        </div>
+        </div> 
 
         <div className="card-container">
              <div className="card">
