@@ -1,9 +1,8 @@
 .fullPage{
     display: flex;
     flex-direction: column;
-    gap: 10rem;  
-    
-     
+    gap: 10rem; 
+     overflow: hidden;
 
     .aboutPage{
     display: flex;
@@ -71,33 +70,42 @@
 
 
 .teamFull{
-    // margin:100px 135px 300px 0px;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
     
     .headingTeam{
-        margin-left: 80px;
-        font-size: 30px;
+        display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    margin-bottom: 2rem; 
+        
     }
     
     .managers{
         display: grid;
-        justify-content: center;
+        text-align: center;
         grid-template-columns: repeat(4, 1fr);
         align-items: center;
-        gap: 40px;
-        margin-left: 80px;
+        gap: 5rem;
+        
         
 
         .managersInfo{
            
 
             img{
-                width: 330px;
+                width: 250px;
                 height: 300px;
                 border-radius: 10px;
                 cursor: pointer;
                 transition: 1s;
                 object-fit: cover;
                 object-position: center;
+                
             }
             img:hover{
                 transform: scale(1.1);
@@ -106,10 +114,10 @@
                 display: flex;
                 flex-direction: column;
                 gap: 5px;
-                margin-top: 40px;
+                margin-top: 1.5rem;
                 .name{
                     font-weight: bold;
-                    font-size: 40px;
+                    font-size: 25px;
                 }
                 .position{
                     font-weight: 300;
@@ -121,13 +129,13 @@
     }
     .horizontalLine{
         margin: 150px 50px;
+        height: 2px;
     }
     .horizontal{
         margin: 150px 50px;
     }
     .advertisements{
-        margin-top: 80px;
-        margin-left: 0px;
+        margin-top: 5rem;
        display: flex;
        justify-content: center;
         
