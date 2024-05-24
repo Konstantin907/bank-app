@@ -10,8 +10,8 @@ export const Currency = () => {
   const [targetAmount, setTargetAmount] = useState(0);
   const [sourceCurrency, setSourceCurrency] = useState('EUR');
   const [targetCurrency, setTargetCurrency] = useState('USD');
-
-
+ 
+ 
  
 
 

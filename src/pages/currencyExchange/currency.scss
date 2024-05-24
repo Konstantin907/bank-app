@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    // margin: 0% 30%;
+    
    
 
     
@@ -11,7 +11,7 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        
+         
 
         .heading{
         display: flex;
@@ -65,9 +65,9 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        margin-top: 100px;
+       // margin-top: 10rem;
         margin-bottom: 250px;
-        margin: 0% 30%;
+        margin: 10rem;
 
 
         h1{
@@ -76,11 +76,13 @@
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            
+
         }
         h3{
             font-size: 20px;
             line-height: 1.8;
+            letter-spacing: 1px;
+            color: #818989;
         }
     }
 
