@@ -3,13 +3,14 @@ footer{
     justify-content: space-between;
     align-items: center;
     gap: 0px;
-    margin: -10px 150px;
-    margin-bottom: 100px;
+    margin: -2rem 10rem;
+    
+    margin-bottom: 3rem;
+
 .footer{
     display: flex;
     flex-direction: column;
     
-
       .footer-left{
  
         display: flex;
@@ -17,8 +18,8 @@ footer{
         gap: 10px;
 
         .logo{
-        width: 83px;
-        height: 82px;
+        width: 43px;
+        height: 42px;
     }
     .logos{
         display: flex;
@@ -28,7 +29,7 @@ footer{
         h3{
         color: #FFF;
         font-family: Poppins;
-        font-size: 45px;
+        font-size: 20px;
         font-style: normal;
         font-weight: 600;
         line-height: 130%;
@@ -42,15 +43,16 @@ footer{
 }
 p{ 
         color: rgba(255, 255, 255, 0.70);
-        font-size: 25px;
+        font-size: 15px;
         font-style: normal;
         font-weight: 400;
             }
 
 .footer-right{
-    display: flex;
+    display: flex; 
+    justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 4rem;
     
 
 
@@ -59,19 +61,18 @@ p{
         flex-direction: column;
         align-items: center;
         margin-top: -10px;
-
        
         a{
             text-decoration: none;
             color: rgba(255, 255, 255, 0.70);
-            font-size: 20px;
-            margin-top: 10px;
+            font-size: 15px;
+            
         }
     }
 }
 
 #part{
-    margin-top: -130px;
+  margin-top: -4.5rem;  
 }   
 
 
