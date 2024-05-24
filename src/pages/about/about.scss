@@ -70,7 +70,7 @@
 
 
 .teamFull{
-    margin-top: 5rem;
+    margin-top: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -129,13 +129,14 @@
     }
     .horizontalLine{
         margin: 150px 50px;
-        height: 2px;
+        width: 90%;
     }
     .horizontal{
         margin: 150px 50px;
+        width: 90%;
     }
     .advertisements{
-        margin-top: 5rem;
+        margin-top: 1rem;
        display: flex;
        justify-content: center;
         
