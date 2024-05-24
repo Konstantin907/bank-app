@@ -1,45 +1,54 @@
 .fullPage{
     display: flex;
     flex-direction: column;
-    gap: 150px;  
+    gap: 10rem;  
     
-    
+     
 
     .aboutPage{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 80px;
     align-items: center;
-    margin-top: -40px;
+    gap: 10rem;
+    margin-top: -3rem;
+  
+
+        .leftSide{
+            width: 50%;
+        }
 
     img{
-        width: 700px;
-        height: 470px;
+        width: 100%;
+        height: 400px;
         margin: 120px;
-        
+        object-fit: cover;
     }
 
     .right-side{
-        margin-top: -60px;
-         margin-left: -75px;
+        display: flex;
+        flex-direction: column;
+        margin-top: -5rem;
+         margin-left: -1rem;
+         width: 50%;
         h1{
-            font-size: 55px;
+            font-size: 50px;
             background: radial-gradient(64.33% 64.33% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%);
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
         p{
-            font-size: 30px;
+            font-size: 20px;
             color: rgba(255, 255, 255, 0.70);
+            width: 700px;
         }
         .buttons{
             
            .scrollBtn{
             margin-top: 30px;
-            width: 450px;
-            height: 70px;
+            width: 300px;
+            height: 40px;
             border: none;
             background-color: #5bcfe0;
             //background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);

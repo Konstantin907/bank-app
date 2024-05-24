@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import "./about.scss"
 import { LineElements } from '../../components/lineElements/LineElements';
 import { Link } from 'react-scroll';
-
+ 
 
 
 export const AboutPage = () => {
@@ -44,7 +44,7 @@ export const AboutPage = () => {
           </p>
         <div className="buttons">
           <Link to="team" smooth={true} duration={500}>
-            <button className="scrollBtn">Click here to meet our the team</button>
+            <button className="scrollBtn">Click for the team</button>
           </Link>
               
            
