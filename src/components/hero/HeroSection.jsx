@@ -7,7 +7,7 @@ export default function HeroSection() {
   return (
     <div className='hero-section'>
         <HeroLeft />
-        <HeroRight />
+        <HeroRight /> 
     </div>
  
     
